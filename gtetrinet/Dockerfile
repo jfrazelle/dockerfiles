@@ -3,9 +3,9 @@
 # xhost +"local:docker@" && \
 # docker run -it \
 #       -v /tmp/.X11-unix:/tmp/.X11-unix \ # mount the X11 socket
-#       -e DISPLAY=$DISPLAY \ 
-#       --name gtetrinet
-#	jessfraz/gtetrinet
+#       -e DISPLAY=$DISPLAY \
+#       --name gtetrinet \
+#       jessfraz/gtetrinet
 
 FROM debian:stretch-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
